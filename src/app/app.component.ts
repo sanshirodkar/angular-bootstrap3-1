@@ -4,11 +4,8 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styles: [
-    `.logo {
-      max-height: 30px;
-      padding-bottom: 5px;
-    }`
+  styleUrls: [
+    './app.component.css'
   ]
 })
 export class AppComponent  {
